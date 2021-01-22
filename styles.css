@@ -1,0 +1,40 @@
+.container {
+  width: 700px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+}
+p {
+  position: relative;
+  left: 20px;
+  padding: 5px;
+  margin: 5px;
+}
+.currenttemperature {
+  position: relative;
+  left: 300px;
+  top: -80px;
+  font-size: 10mm;
+}
+.weatherspecyfic {
+  position: relative;
+  left: 100px;
+  padding: 5px;
+  margin: 5px;
+}
+.prediction {
+  margin: 50px;
+}
+.searchengin {
+  margin: 20px;
+  padding: 20px;
+}
+#description {
+  font-weight: bold;
+}
