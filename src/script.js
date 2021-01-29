@@ -38,7 +38,7 @@ function displayWeatherSpecyfic(response) {
   document.querySelector("#feels-like").innerHTML = `Feels like: ${Math.round(
     response.data.main.feels_like
   )}°`;
-  document.querySelector("#wind").innerHTML = `Wind speed is ${Math.round(
+  document.querySelector("#wind").innerHTML = `Wind speed: ${Math.round(
     response.data.wind.speed
   )} km/h`;
 }

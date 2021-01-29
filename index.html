@@ -15,20 +15,26 @@
 <body>
     <div class="container">
         <h1 id="city"></h1>
-        <p id="date"></p>
+        <div id="date"></div>
+     
+    <div class="row">
+        <div class="col" id="temperature">
+            <span class="current-temperature" id="current-temperature">-1</span>
+            <span class="units"><a href="#" id="celcius-link">°C|</a>
+                <a href="#" id="fahrenheit-link">°F</a>
+            </span>
+            <span class="weather-emoji">❄</span>
+        </div>
 
-        <div class="weatherspecyfic">
+        <div class="col" id="weatherspecyfic">
             <div id="description"></div>
             <div id="humidity"></div>
             <div id="feels-like"></div>
             <div id="wind"></div>
         </div>
-        <div class="temperature" id="temperature">
-            <span class="current-temperature" id="current-temperature">-1</span>
-            <span class="units"><a href="#" id="celcius-link">°C|</a>
-                <a href="#" id="fahrenheit-link">°F</a></span>
-            <span class="weather-emoji">❄</span>
-        </div>
+
+
+    </div>
         <div class="prediction">
             <div class="row">
                 <div class="col">Tue </br> 2°C </br>❄</div>
