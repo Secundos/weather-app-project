@@ -23,7 +23,7 @@ h1 {
   margin: 5px;
 }
 .current-temperature {
-  font-size: 10mm;
+  font-size: 15mm;
   position: relative;
   top: 50px;
   left: 20px;
@@ -48,10 +48,16 @@ h1 {
 .prediction {
   margin: 50px;
 }
+#day-forecast {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 .searchengin {
   margin: 20px;
   padding: 20px;
 }
 #description {
   font-weight: bold;
+}
+#description:first-letter {
+  text-transform: capitalize;
 }
