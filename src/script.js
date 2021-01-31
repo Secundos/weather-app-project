@@ -10,14 +10,8 @@ function formatDate(timestamp){
   "Saturday"
 ];
 let day = days[now.getDay()];
-//let currentDate = document.querySelector("#date");
-//currentDate.innerHTML = formatDate();
 return `${day} ${formatHours(timestamp)}`
 }
-
-
-
-
 
 function formatHours(timestamp){
  let now = new Date(timestamp);
@@ -58,7 +52,6 @@ iconElement.setAttribute("alt", response.data.weather[0].description);
 
 
 function displayForecast(response){
-  console.log(response.data);
   let forecastElement= document.querySelector("#forecast");
   let  forecast = null;
   forecastElement.innerHTML = null;
@@ -76,7 +69,6 @@ function displayForecast(response){
                 `
 }
 }
-
 
 
 function searchCity(city) {
@@ -120,6 +112,9 @@ function searchPosition(position) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
 
   axios.get(apiUrl).then(displayWeatherSpecyfic);
+                   
+  apiUrl= `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`;
+  axios.get(apiUrl).then(displayForecast);
 }
 
 function getCurrentLocation(event) {
