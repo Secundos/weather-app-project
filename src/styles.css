@@ -13,16 +13,23 @@ h1 {
   padding: 20px;
   font-family: "Merriweather", serif;
   position: relative;
-  padding: 0;
+  padding: 5px;
   top: 20px;
+  left: 20px;
   font-weight: bold;
 }
+h3 {
+  margin-left: 15px;
+  font-weight: normal;
+}
+
 #date {
   position: relative;
   font-size: 15px;
   font-family: "Merriweather", serif;
   padding: 5px;
   margin: 5px;
+  left: 20px;
 }
 .current-temperature {
   font-size: 15mm;
@@ -42,20 +49,27 @@ h1 {
   top: -20px;
   left: 20px;
 }
-#weatherspecyfic {
-  padding: 5px;
-  margin: 5px;
+#forecast-icon {
+  position: relative;
+  left: 20px;
 }
-.prediction {
-  margin: 50px;
-  font-family: "Merriweather", serif;
+.weather-forecast-temperature {
+  position: relative;
+  left: 20px;
 }
 #forecast {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  left: 30px;
+  bottom: 10px;
 }
-.searchengin {
+#weatherspecyfic {
+  padding: 5px;
   margin: 20px;
-  padding: 20px;
+}
+
+#search-engine {
+  position: relative;
+  left: 50px;
 }
 #description {
   font-weight: bold;
