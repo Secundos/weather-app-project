@@ -14,10 +14,21 @@
 
 <body>
     <div class="container">
+      <form class="searchEngine" id="search-engine">
+          <input type="text" placeholder="Enter a city" id="city-input" />
+          <input type="submit" value="Search" class="btn btn-success" id="search" />
+          <input type="submit" value="Back to current" class="btn btn-primary" id="current" />
+        </form>
+     
+      
+      
+      
         <h1 id="city"></h1>
         <div id="date"></div>
      
-    <div class="row">
+       
+    
+     <div class="row">
         <div class="col" id="temperature">
            <img src="" alt="Clear" id="weather-emoji"/>
             <span class="current-temperature" id="current-temperature">-1</span>
@@ -41,13 +52,7 @@
            </div>
         
      
-        <form class="searchEngine" id="search-engine">
-            <input type="text" placeholder="Enter a city" id="city-input" />
-
-            <input type="submit" value="Search" class="btn btn-success" id="search" />
-
-            <input type="submit" value="Back to current" class= "btn btn-primary" id="current" />
-        </form>
+        
       
       <small id= "footer">This project was coded by <a href="https://www.linkedin.com/in/emilia-kuci%C4%99ba-a497761ba/" target="_blank">Emilia Kucięba</a> and is open-soursed <a href="https://github.com/Secundos/weather-app-project" target="_blank"> on GitHub</a> and hosted <a href="https://silly-sinoussi-be476f.netlify.app/?#" target="_blank"> on Netfly</a></small>
     </div>

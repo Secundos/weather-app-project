@@ -14,13 +14,14 @@ h1 {
   font-family: "Merriweather", serif;
   position: relative;
   padding: 5px;
-  top: 20px;
+  top: 40px;
   left: 20px;
   font-weight: bold;
 }
 h3 {
   margin-left: 15px;
-  font-weight: normal;
+  font-size: 25px;
+  opacity: 0.8;
 }
 
 #date {
@@ -30,6 +31,7 @@ h3 {
   padding: 5px;
   margin: 5px;
   left: 20px;
+  top: 20px;
 }
 .current-temperature {
   font-size: 15mm;
@@ -63,13 +65,16 @@ h3 {
   bottom: 10px;
 }
 #weatherspecyfic {
+  position: relative;
+  bottom: 10px;
   padding: 5px;
   margin: 20px;
 }
 
 #search-engine {
   position: relative;
-  left: 50px;
+  top: 30px;
+  left: 15px;
 }
 #description {
   font-weight: bold;
